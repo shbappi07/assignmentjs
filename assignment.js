@@ -1,3 +1,8 @@
+// https://github.com/shbappi07/assignmentjs
+
+//First Problem
+// Kilometer to meter converting
+
 function kilometerToMeter(kilometer) {
     if (kilometer < 0) {
         return 'Kilometer can not be negative';
@@ -13,6 +18,7 @@ var testingCalculations = kilometerToMeter(60);
 console.log(testingCalculations);
 
 // Second Problem
+// Shopping Budget Calculation
 
 function budgetCalculator(watch, phone, laptop) {
     if (watch < 0 || phone < 0 || laptop < 0) {
@@ -30,6 +36,7 @@ var totalcost = budgetCalculator(2, 2, 2)
 console.log(totalcost)
 
 //Third Problem
+// Hotel Cost Calculation
 
 
 function hotelCost(daysOfStay) {
@@ -59,7 +66,10 @@ function hotelCost(daysOfStay) {
 var calculateFare = hotelCost(10);
 console.log(calculateFare)
 
+
 //Fourth Problem
+// Finding the largest name from an string Array
+
 
 function megaFriend(friendList) {
     var initialLength = 0;
